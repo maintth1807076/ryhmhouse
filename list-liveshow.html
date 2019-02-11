@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List liveshow</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .list-liveshow .row {
+            padding-top: 20px;
+        }
+        .list-liveshow img {
+            width: 60%;
+        }
+        .content {
+            padding-top: 70px;
+        }
+        .navbar-header {
+            padding-bottom: 35px;
+        }
+        .navbar-collapse {
+            padding-top: 15px;
+        }
+        nav img {
+            width: 60px;
+        }
+        nav a {
+            text-transform: uppercase;
+        }
+        nav {
+            opacity: 0.8;
+        }
+        @keyframes xoay-img {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        .hot-CD .img-CD {
+            animation-name: xoay-img;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .hot-CD p {
+            padding-top: 10px;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="full-left col-sm-6 text-center">
+                    <ul class="list-inline">
+                        <li>Address</li>
+                        <li>Phone number</li>
+                    </ul>
+                </div>
+                <div class="full-right col-sm-6 text-center">
+                    <ul class="list-inline">
+                        <li>Giỏ hàng</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <nav class="navbar navbar-inverse" >
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="">
+                        <a class="navbar-brand" href="#"><img src="img/logo2.png" alt=""></a>
+                    </div>
+
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!--<form class="navbar-form navbar-left">-->
+                    <!--<div class="form-group">-->
+                    <!--<input type="text" class="form-control" placeholder="Search">-->
+                    <!--</div>-->
+                    <!--<button type="submit" class="btn btn-default">Submit</button>-->
+                    <!--</form>-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">CD/DVD <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Pop music</a></li>
+                                <li><a href="#">For kids</a></li>
+                                <li><a href="#">Regional music</a></li>
+                                <li><a href="#">Devotional music</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Liveshow <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Magazines <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">India</a></li>
+                                <li><a href="#">US</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Customer <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</header>   <!--/header-->
+<content>
+    <div class="container">
+        <h1>Liveshow</h1>
+    </div>
+    <div class="list-liveshow">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="https://znews-photo.zadn.vn/w660/Uploaded/rdsis/2013_09_27/jus1.jpg" alt="Paris">
+                        <p><strong>Paris</strong></p>
+                        <p>Fri. 27 November 2019</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="thumbnail">
+                        <img src="https://assets.capitalfm.com/2018/03/kygos-london-tour-date-1516965641.png" alt="New York">
+                        <p><strong>New York</strong></p>
+                        <p>Sat. 28 November 2019</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="https://d1w5e52g85ucd3.cloudfront.net/static/images/external/img/liv/5135/2/flyer/dj-tay-james.jpg" alt="San Francisco">
+                        <p><strong>Hà Nội</strong></p>
+                        <p>Sat. 28 November 2019</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="https://i.axs.com/2018/02/32782-optimized_5a7a16de77558.jpg" alt="San Francisco">
+                        <p><strong>Hà Nội</strong></p>
+                        <p>Sat. 28 November 2019</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="https://asialive365.com/wp-content/uploads/2018/12/marsh.jpg" alt="Paris">
+                        <p><strong>Paris</strong></p>
+                        <p>Fri. 27 November 2019</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="https://in.bmscdn.com/Events/moviecard/ET00093038.jpg" alt="New York">
+                        <p><strong>New York</strong></p>
+                        <p>Sat. 28 November 2019</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="https://www.galactix.asia/uploads/galactix_TWPMD_event_thumbnail.jpg" alt="San Francisco">
+                        <p><strong>Hà Nội</strong></p>
+                        <p>Sat. 28 November 2019</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="https://nightout.s3.amazonaws.com/media/posters/53341/small-25e58f8c73d5792e.png?1547672882" alt="San Francisco">
+                        <p><strong>Hà Nội</strong></p>
+                        <p>Sat. 28 November 2019</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</content> <!--/content-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <a href="" class="lead">Contact with us</a>
+                <ul class="list-unstyled">
+                    <li class="fb"><a href="#" target="_blank" title="Like Us on FB">Facebook</a></li>
+                    <li class="inst"><a href="#" title="Follow Us on Inst" target="_blank">Instagram</a></li>
+                    <li class="ytb"><a href="#" target="_blank" title="Subcribe Us on YTB">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a href="" class="lead">Support</a>
+                <ul class="list-unstyled">
+                    <li ><a href="#">Help</a></li>
+                    <li><a href="#" >Contact Us</a></li>
+                    <li ><a href="#" >Leave Feedback</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a href="" class="lead">Privacy</a>
+                <ul class="list-unstyled">
+                    <li ><a href="#">Privacy Policy</a></li>
+                    <li><a href="#" >Terms Of Service</a></li>
+                    <li ><a href="#" >Supplier Code of Conduct</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <p class="text-muted text-center">
+                Copyright chipchip@gmail.com
+            </p>
+        </div>
+    </div>
+</footer>   <!--footer-->
+<script src="js/myjs.js"></script>
+<script>
+    $(document).ready(function($) {
+        $(window).scroll(function(){
+            if($(this).scrollTop()>50){
+                $(".header-bottom").addClass('navbar-fixed-top')
+            }else{
+                $(".header-bottom").removeClass('navbar-fixed-top')
+            }}
+        )
+    })
+</script>
+</body>
+</html>
